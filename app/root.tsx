@@ -3,6 +3,7 @@ import {
   Form,
   Links,
   LiveReload,
+  Outlet,
   Meta,
   Scripts,
   ScrollRestoration,
@@ -51,6 +52,9 @@ export default function App() {
               </li>
             </ul>
           </nav>
+        </div>
+        <div id="detail">
+          <Outlet />
         </div>
 
         <ScrollRestoration />
